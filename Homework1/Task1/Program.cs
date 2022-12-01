@@ -1,13 +1,15 @@
-﻿// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, 
-// а какое меньшее.
+﻿//  Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
-// a = 5; b = 7 -> max = 7
-// a = 2 b = 10 -> max = 10
-// a = -9 b = -3 -> max = -3 
-Console.WriteLine("ВВедите А: ");
+// 2, 3, 7 -> 7
+// 44 5 78 -> 78
+// 22 3 9 -> 22
+
+Console.WriteLine("Введите А: ");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("ВВедите В: ");
+Console.WriteLine("Введите В: ");
 int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите С: ");
+int с = Convert.ToInt32(Console.ReadLine());
 if(a>b){
     Console.WriteLine("a>b");
 }
