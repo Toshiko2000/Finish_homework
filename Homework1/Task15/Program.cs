@@ -10,21 +10,13 @@ Console.Write("Введите число от 1 до 7: ");
 int n = Convert.ToInt32(Console.ReadLine()); 
 
 if (n > 0 && n <= 5) {
-    Console.WriteLine("Work day");
+    Console.WriteLine("Рабочий день");
 }
 else if (n > 5 && n < 8) {
-    Console.WriteLine("Holly day");
+    Console.WriteLine("Выходной");
 }
 else {
-    Console.WriteLine("no");
+    Console.WriteLine("Неправильный ввод!!!");
 }
 
-    // if (n > 0 && n < 8);
-    //     else if (n == 7 ||  n == 6)
-    //     {
-    //         Console.Write("Под цифрой " + n + " - Выходной");
-    //     }
-    //     else if (n == 1 || n == 2 || n == 3 || n == 4 || n == 5 )
-    //     {
-    //         Console.Write("Под цифрой " + n + " - Рабочий");
-    //     }
+    
